@@ -1,5 +1,5 @@
 :root{--bg:#F9FCFC;--txt:#474949;--thm:#3B847E}
-@media (prefers-color-scheme: dark){:root{--bg:#0A0A0A;--txt:#eaeaea;--thm:#42938C}}
+@media (prefers-color-scheme: dark){:root{--bg:#0A0A0A;--txt:#eaeaea;--thm:#570E0E}}
 body{background:var(--bg);color:var(--txt);font:1.2em/1.6em sans-serif;max-width:660px;margin:7% auto auto;padding:0 5%}
 h1,h2,h3{font-size:1em}
 a{color:var(--thm);text-decoration:none}
