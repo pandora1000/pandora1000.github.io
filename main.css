@@ -11,3 +11,10 @@ pre{border:1px solid var(--txt);padding:1em;overflow-x:auto}
 code{background:var(--thm)}
 pre code{background:none}
 @media(max-width:480px){body{font:1em/1.4em sans-serif}}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
