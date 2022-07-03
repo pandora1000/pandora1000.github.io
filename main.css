@@ -12,12 +12,12 @@ h1 { color: #eaeaea; font-size: 75px; font-family: cmtitle; margin-top: 5%; disp
 h2 { color: #570E0E; font-family: cmtitle; font-size: 25px; margin-top: -25px; }
 
 
-ul{padding-left:20px;list-style-type:'-- ';line-height:1.4; font-family: helvetica;}
+ul{padding-left:20px;list-style-type:'-- ';line-height:1.4; font-family: cm-serif;}
 
 
-p { color: #eaeaea; font-family: helvetica; font-size: 20px; }
+p { color: #eaeaea; font-family: cm-serif; font-size: 20px; }
 
-a { color: #570E0E; font-family: helvetica; text-decoration: none;}
+a { color: #570E0E; font-family: cm-serif; text-decoration: none;}
 
 
 a:hover { color: #570E0E; }
