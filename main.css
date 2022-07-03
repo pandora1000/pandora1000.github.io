@@ -9,7 +9,7 @@ body{background:var(--bg);color:var(--txt);font:1.2em/1.6em cmtitle;max-width:66
 
 h1 { color: #eaeaea; font-size: 75px; font-family: cmtitle; margin-top: 5%; display: inline; }
 
-h2 { color: #eaeaea; font-family: cmtitle; font-size: 25px; margin-top: -25px; }
+h2 { color: #570E0E; font-family: cmtitle; font-size: 25px; margin-top: -25px; }
 
 
 ul{padding-left:20px;list-style-type:'-- ';line-height:1.4; font-family: helvetica;}
