@@ -27,6 +27,7 @@ li { color: #eeeeee; font-family: helvetica; font-size: 20px; }
 
 a { color: #eeeeee; font-family: helvetica; text-decoration: none;}
 
+b { color: #005577; font-family: helvetica; text-decoration: none;}
 
 a:hover { color: #005577; }
 	.menu { margin-top: 50px; padding: 5px; float: right;}
