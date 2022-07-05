@@ -15,6 +15,10 @@ body{background:var(--bg);color:var(--txt);fon cmtitle; max-width: 660px; margin
 	body { background-color: #111; color: #eee; }
 }
 
+
+@media (prefers-color-scheme: light) {
+	body { background-color: #111; color: #eee; }
+}
 h1 { color: #005577; font-size: 64px; font-weight; 600; font-family: helvetica; margin-top: 5%; display: inline; }
 
 h2 { color: #bbbbbb; font-family: helvetica; font-size: 25px; margin-top: -25px; }
