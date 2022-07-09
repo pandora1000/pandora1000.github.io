@@ -1,6 +1,6 @@
 
  body {
-    font-family: sans-serif;
+    font-family: helvetica;
     margin: auto;
     padding: 20px;
     max-width: 720px;
@@ -8,121 +8,8 @@
     background-color: #fff;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    line-height: 1.5;
+    line-height: 1.1;
     color: #444;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
-
-  a {
-    color: #3273dc;
-
-  }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -131,41 +18,38 @@
       color: #ddd;
     }
 
+h1 {
+color: #005577;
+font-size: 64px;
+font-weight; 600;
+margin-top: 5%;
+display: inline;
+}
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #005577;
-    }
+h2 {
+color: #bbbbbb;
+font-size: 30px;
+margin-top: -25px;
+display: inline
+}
 
-    a {
-      color: #8cc2dd;
-    }
+p { color: #eee;
+    font-size: 25px;
+}
 
-    code {
-      background-color: #777;
-    }
+ul {
+padding-left:20px;
+list-style-type:&#x2022;;
+line-height:1.4;
+}
 
-    pre code {
-      color: #ddd;
-    }
 
-    blockquote {
-      color: #ccc;
-    }
+li { color: #eeeeee; font-family: helvetica; font-size: 20px; }
 
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
+a { color: #eeeeee; font-family: helvetica; text-decoration: none;}
 
-    .helptext {
-      color: #aaa;
-    }
+b { color: #1177aa; font-family: helvetica; text-decoration: none;}
+
+a:hover { color: #005577; }
+
   }
